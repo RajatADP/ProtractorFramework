@@ -1,0 +1,23 @@
+{
+  "name": "framework",
+  "version": "1.0.0",
+  "description": "Protractor Framework",
+  "main": "index.js",
+  "dependencies": {
+    "protractor": "6.0.0",
+    "jasmine": "3.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RajatADP/ProtractorFramework.git"
+  },
+  "author": "Rajat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RajatADP/ProtractorFramework/issues"
+  },
+  "homepage": "https://github.com/RajatADP/ProtractorFramework#readme"
+}
