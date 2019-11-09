@@ -13,12 +13,10 @@ describe('Enter name feature', function () {
 describe('New Angular App', function () {
     it('Test App', function () {
         browser.get('http://www.way2automation.com/angularjs-protractor/registeration/#/login');
-        element(by.model('Auth.user.name')).sendKeys('angular');
+        element(By.model('Auth.user.name')).sendKeys('angular');
         element(by.model('Auth.user.password')).sendKeys('password');
         element(by.model('model[options.key]')).sendKeys('angular');
-        browser.driver.sleep(2000);
-        element(by.model('Auth.login()')).click;
+        element(By.css('[ng-click="Auth.login()"]')).click();
+        browser.driver.sleep(5000);
     })
-
-
-})
+});
