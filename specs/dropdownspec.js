@@ -13,7 +13,7 @@ describe('First describe', function () {
         element.all(by.options('value for (key, value) in operators')).get(4).click();
         browser.sleep(5000);
     });
-    fit('Third way', function () {
+    it('Third way', function () {
         browser.get('http://juliemr.github.io/protractor-demo/');
         browser.sleep(3000);
         element(By.cssContainingText('option','*')).click();
