@@ -6,6 +6,5 @@ describe('New Angular App', function () {
         element(By.model('model[options.key]')).sendKeys('angular');
         element(By.css('[ng-click="Auth.login()"]')).click();
         browser.driver.sleep(5000);
-
     });
 });

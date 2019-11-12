@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/RajatADP/ProtractorFramework/issues"
   },
-  "homepage": "https://github.com/RajatADP/ProtractorFramework#readme"
+  "homepage": "https://github.com/RajatADP/ProtractorFramework#readme",
+  "devDependencies": {
+    "ag-grid-testing": "0.0.2"
+  }
 }

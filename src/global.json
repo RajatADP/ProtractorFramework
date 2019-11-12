@@ -1,0 +1,10 @@
+{
+
+    "url": "http://demo.automationtesting.in/Register.html",
+    "userName": "Rajat",
+    "password": "pass",
+    "country":{
+        "city":"Mumbai",
+        "area":"Jogeshwari"
+    }
+}
