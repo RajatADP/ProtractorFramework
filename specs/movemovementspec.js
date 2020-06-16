@@ -5,6 +5,5 @@ describe('Mouse Hover', function () {
         var button = element(by.css('button[ngbtooltip="Tooltip on top"]'));
         browser.actions().mouseMove(button).perform();
         browser.sleep(3000);
-
     });
 });

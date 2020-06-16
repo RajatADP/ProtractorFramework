@@ -1,6 +1,9 @@
+const { browser } = require("protractor");
+
 describe('New Angular App', function () {
     it('Test App', function () {
         browser.get('http://www.way2automation.com/angularjs-protractor/registeration/#/login');
+        browser.manage().window().maximize();
         element(By.model('Auth.user.name')).sendKeys('angular');
         element(By.model('Auth.user.password')).sendKeys('password');
         element(By.model('model[options.key]')).sendKeys('angular');
@@ -8,3 +11,4 @@ describe('New Angular App', function () {
         browser.driver.sleep(5000);
     });
 });
+
