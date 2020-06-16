@@ -3,7 +3,7 @@ var HtmlReporter = require('protractor-beautiful-reporter');
 exports.config = {
     framework: 'jasmine',
     seleniumAddress: 'http://localhost:4444/wd/hub',
-    specs: ['./specs/waitspec.js'],
+    specs: ['./specs/spec.js'],
     capabilities: {
      browserName: 'chrome',
      chromeOptions: {
